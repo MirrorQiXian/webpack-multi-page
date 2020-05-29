@@ -1,9 +1,9 @@
-# [webpack-multi-page](https://github.com/lfyfly/webpack-multi-page)
+# [webpack-multi-page](https://github.com/MirrorQiXian/webpack-multi-page.git)
 
 ## 1、快速使用
 ### 1.1 克隆项目
 ```
-git clone https://github.com/lfyfly/webpack-multi-page.git
+https://github.com/MirrorQiXian/webpack-multi-page.git
 ```
 删除`.git`文件夹，这是我的`commit记录`，所以删除
 
@@ -92,4 +92,4 @@ commonCss:{
   },
 ```
 ## gulp 多页面配置
-[gulp-easy](https://github.com/lfyfly/gulp-easy)
+[gulp-easy](https://github.com/MirrorQiXian/gulp-easy)
