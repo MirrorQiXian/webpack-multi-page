@@ -83,7 +83,17 @@ module.exports = (env, argv) => {
             name: "commons",
             chunks: "all",
             minChunks: 2
-          }
+          },
+          'jquery': {
+            test: /jquery/,
+            name: 'jquery',
+            priority: 100
+          },
+          'layui': {
+              test: /layui/,
+              name: 'layui',
+              priority: 100
+          },
         }
       }
     }
