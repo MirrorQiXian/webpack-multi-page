@@ -65,7 +65,7 @@ npm run sp
   - 第二种方式以`/assets`开头的绝对路径，自动定位到`src/assets`目录下
   - 第三种种方式以`~@/assets`开头的绝对路径，自动定位到`src/assets`目录下
 
-- csss中的背景图写法
+- css中的背景图写法
   - 第一种方式是`相对css文件的相对路径`
   - 第二种种方式以`~@/assets`开头的绝对路径，自动定位到`src/assets`目录下
 
@@ -76,7 +76,7 @@ npm run sp
 - 支持打包文件版本hash，提取`vendor.js` `common.js` `[page].js`文件，只对模块更改的css，js文件版本hash进行更改
   - `vendor.js`是指`/node_modules`文件夹中引用的第三方插件
   - `common.js`是指被多个页面引用超过2次并且，大小超过20k时，才会生成
-  - `[page.js]`对应着每个页面独自的js文件 
+  - `[page.js]`对应着每个页面独自的js文件
 - css文件单独提取
 - 小于8k图片文件和字体文件自动转base64代码
 - pages多级目录支持（忽略下划线开头的文件和文件夹）

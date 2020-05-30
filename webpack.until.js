@@ -82,7 +82,7 @@ let until = {
             baseTagUrl: '../',
             template: file.filepath,
             filename: '.' + file.filepath.replace(targetPath, '').replace(reg, '.html'),
-            chunks: [chunkName].concat(getCommonCssChunk(chunkName)).concat(argv.mode === 'production' ? ['vendor', 'commons', 'manifest'] : []),
+            chunks: [chunkName].concat(getCommonCssChunk(chunkName)).concat(argv.mode === 'production' ? ['vendor', 'commons', 'manifest', 'jquery', 'layui'] : []),
             inject: true,
             minify: argv.mode !== 'production' ? undefined : {
               removeComments: true,

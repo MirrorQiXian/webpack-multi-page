@@ -9,9 +9,11 @@
 
 export default {
   name: 'App',
-  data:{
-    msg: 'app msg'
-  }
+  data() {
+    return {
+      msg: 'app msg'
+    }
+  },
 }
 </script>
 

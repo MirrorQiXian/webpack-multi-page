@@ -98,6 +98,10 @@ module.exports = (env, argv) => {
             }
           }
         },
+        {
+          test: require.resolve('./src/layui/layui.all.js'),
+          loader: 'exports-loader?window.layui!script-loader'
+        }
       ]
     },
 
@@ -111,6 +115,11 @@ module.exports = (env, argv) => {
             root: path.resolve(__dirname, './src') // 对于html中的绝对路径进行定位， /assets/a.jpg => path.resolve(__dirname, '/src/assets/a.jpg')
           }
         }
+      }),
+      new webpack.ProvidePlugin({
+        $: 'jquery',
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery'
       }),
     ],
   }
