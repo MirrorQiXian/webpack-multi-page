@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  color: $global-color; 
-}
+// #app {
+//   color: $global-color;
+// }
 </style>

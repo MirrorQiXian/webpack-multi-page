@@ -84,11 +84,11 @@ module.exports = (env, argv) => {
             chunks: "all",
             minChunks: 2
           },
-          'jquery': {
-            test: /jquery/,
-            name: 'jquery',
-            priority: 100
-          },
+          // 'jquery': {
+          //   test: /jquery/,
+          //   name: 'jquery',
+          //   priority: 100
+          // },
           'layui': {
               test: /layui/,
               name: 'layui',
