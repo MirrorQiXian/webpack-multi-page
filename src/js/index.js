@@ -1,8 +1,8 @@
-import '@/layui/css/layui.css';
-import '@/layui/css/modules/code.css';
-import '@/layui/css/modules/laydate/default/laydate.css';
-import '@/layui/css/modules/layer/default/layer.css';
-import layui from '../layui/layui.all.js';
+// import '@/layui/css/layui.css';
+// import '@/layui/css/modules/code.css';
+// import '@/layui/css/modules/laydate/default/laydate.css';
+// import '@/layui/css/modules/layer/default/layer.css';
+// import layui from '../layui/layui.all.js';
 
 import '@/css/index.scss'
 // import './_modules/customized';
