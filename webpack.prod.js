@@ -89,11 +89,11 @@ module.exports = (env, argv) => {
           //   name: 'jquery',
           //   priority: 100
           // },
-          'layui': {
-              test: /layui/,
-              name: 'layui',
-              priority: 100
-          },
+          // 'layui': {
+          //     test: /layui/,
+          //     name: 'layui',
+          //     priority: 100
+          // },
         }
       }
     }

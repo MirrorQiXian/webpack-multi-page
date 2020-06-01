@@ -98,10 +98,10 @@ module.exports = (env, argv) => {
             }
           }
         },
-        {
-          test: require.resolve('./src/layui/layui.all.js'),
-          loader: 'exports-loader?window.layui!script-loader'
-        }
+        // {
+        //   test: require.resolve('./src/layui/layui.all.js'),
+        //   loader: 'exports-loader?window.layui!script-loader'
+        // }
       ]
     },
 
